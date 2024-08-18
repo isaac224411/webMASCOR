@@ -1,0 +1,232 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f7aa46; /* Azul claro */
+}
+
+header {
+    background-color: #171a19; /* Verde oscuro */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff; /* Blanco */
+}
+
+main section {
+    border-bottom: 1px solid #ffc400;
+    padding-bottom: 2rem;
+}
+
+main section:last-of-type {
+    border-bottom: none;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #ffc402; /* Verde oscuro */
+    margin-top: 3rem;
+    color: #daa617; /* Blanco */
+}
+.productos-section {
+    background-color: #724a0e;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.productos-section h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.productos-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.productos-section .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.productos-section .btn:hover {
+    background-color: #0056b3;
+}
+.product-list {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-list h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.product-item {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #666;
+}
+.encuesta-section {
+    background-color: #eef1f5;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.encuesta-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.encuesta-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.encuesta-section .btn {
+    background-color: #ce8f32;
+    color: #4b4b4b;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.encuesta-section .btn:hover {
+    background-color: #36363650;
+}
+.vacante-section {
+    background-color: #7a7a7a;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.vacante-section h2 {
+    font-size: 2.5em;
+    color: #e6e2e2;
+    margin-bottom: 20px;
+}
+
+.vacante-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.vacante-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.vacante-section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.vacante-section .btn {
+    background-color: #ff9800;
+    color: #746f6f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.vacante-section .btn:hover {
+    background-color: #e68900;
+}
+.cupones-section {
+    background-color: #8a8a8a;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.cupones-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cupones-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.cupon-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cupon-form input[type="text"] {
+    width: 70%;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cupon-form .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.cupon-form .btn:hover {
+    background-color: #0056b3;
+}
+
+
